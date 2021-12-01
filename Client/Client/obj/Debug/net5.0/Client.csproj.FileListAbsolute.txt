@@ -1,0 +1,16 @@
+D:\projects\csharp\Client\Client\bin\Debug\net5.0\Client.exe
+D:\projects\csharp\Client\Client\bin\Debug\net5.0\Client.deps.json
+D:\projects\csharp\Client\Client\bin\Debug\net5.0\Client.runtimeconfig.json
+D:\projects\csharp\Client\Client\bin\Debug\net5.0\Client.runtimeconfig.dev.json
+D:\projects\csharp\Client\Client\bin\Debug\net5.0\Client.dll
+D:\projects\csharp\Client\Client\bin\Debug\net5.0\ref\Client.dll
+D:\projects\csharp\Client\Client\bin\Debug\net5.0\Client.pdb
+D:\projects\csharp\Client\Client\obj\Debug\net5.0\Client.csprojAssemblyReference.cache
+D:\projects\csharp\Client\Client\obj\Debug\net5.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\csharp\Client\Client\obj\Debug\net5.0\Client.AssemblyInfoInputs.cache
+D:\projects\csharp\Client\Client\obj\Debug\net5.0\Client.AssemblyInfo.cs
+D:\projects\csharp\Client\Client\obj\Debug\net5.0\Client.csproj.CoreCompileInputs.cache
+D:\projects\csharp\Client\Client\obj\Debug\net5.0\Client.dll
+D:\projects\csharp\Client\Client\obj\Debug\net5.0\ref\Client.dll
+D:\projects\csharp\Client\Client\obj\Debug\net5.0\Client.pdb
+D:\projects\csharp\Client\Client\obj\Debug\net5.0\Client.genruntimeconfig.cache
