@@ -16,9 +16,9 @@ namespace Server
                 server = new TcpListener(IPAddress.Parse("127.0.0.1"), 13000);
                 server.Start();
 
-                Byte[] header = new Byte[2];
-                MemoryStream headerMemoryStream = new MemoryStream(header);
-                BinaryReader headerBinaryReader = new BinaryReader(headerMemoryStream);
+                Byte[] header = new Byte[4];
+                MemoryStream headerStream = new MemoryStream(header);
+                BinaryReader headerReader = new BinaryReader(headerStream);
                 Byte[] packet = new Byte[1024 * 8];
                 while (true)
                 {
@@ -40,8 +40,9 @@ namespace Server
                                 continue;
                             }
 
-                            headerMemoryStream.Position = 0L;
-                            ushort packetLen = headerBinaryReader.ReadUInt16();
+                            headerStream.Position = 0L;
+                            ushort packetLen = headerReader.ReadUInt16();
+                            ushort packetId = headerReader.ReadUInt16();
                             Console.WriteLine("Received header: {0} packet len {1}", BitConverter.ToString(header),
                                 packetLen);
                             offset = 0;

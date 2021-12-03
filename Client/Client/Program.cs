@@ -14,7 +14,7 @@ namespace Client
             {
                 tcpClient = new TcpClient("127.0.0.1", 13000);
                 NetworkStream networkStream = tcpClient.GetStream();
-                Byte[] header = new Byte[2];
+                Byte[] header = new Byte[4];
                 Byte[] packet = new Byte[1024 * 8];
                 MemoryStream headerMemoryStream = new MemoryStream(header);
                 BinaryWriter headerBinaryWriter = new BinaryWriter(headerMemoryStream);
@@ -24,9 +24,12 @@ namespace Client
                 while ((input = Console.ReadLine()) != "")
                 {
                     ushort packetLen = (ushort) Encoding.ASCII.GetBytes(input, packet);
+                    ushort packetId = 0;
                     headerMemoryStream.Position = 0L;
-                    // Use BinaryWriter for little-endian, not BitConverter.
+                    // Write packet length, Use BinaryWriter for little-endian, not BitConverter.
                     headerBinaryWriter.Write(packetLen);
+                    // Write packet protocol id, Use BinaryWriter for little-endian, not BitConverter.
+                    headerBinaryWriter.Write(packetId);
                     // Write 2 byte for packet length.
                     networkStream.Write(header);
                     // Write packet.
@@ -46,6 +49,7 @@ namespace Client
                     
                         headerMemoryStream.Position = 0L;
                         packetLen = headerBinaryReader.ReadUInt16();
+                        packetId = headerBinaryReader.ReadUInt16();
                         Console.WriteLine("Received header: {0} packet len {1}", BitConverter.ToString(header),
                             packetLen);
                         offset = 0;

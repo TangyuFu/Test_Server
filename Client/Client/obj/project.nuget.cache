@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nLa1sNE+bkTl2eMOeKX9ySBQEWi07HUDUgSk5yUQ1Tdgd8CVUTnL7KZ89qejAaJ9jwez7dg8Qsh2Wf1wK/52BQ==",
+  "dgSpecHash": "9TkCdIbKUInFZ4QkYukCWLTUPJiCEMDNGfEAQFG6nr7ZSpsAVibw9bpZmZgZwnZAgHJDA4qk9kSlyBbDx+F0iw==",
   "success": true,
-  "projectFilePath": "D:\\projects\\csharp\\Client\\Client\\Client.csproj",
+  "projectFilePath": "D:\\github\\Test_Server\\Client\\Client\\Client.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

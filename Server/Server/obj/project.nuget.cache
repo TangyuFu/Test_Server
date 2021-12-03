@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nBb0Qq1Kti1hYlv1n+CDArFc/mxTZ4DESs73F6W4yraiN8A1647HbrwLT76peeAUCky0vsJWnvt1AOb9o70Ssg==",
+  "dgSpecHash": "b9si1Dzzo0Z2LwCbTqIVB7zNwkxIsXzT7CuJrscDO8K7ExlH48cUjQpFuvH7fZsCEgaFfnAQLHxtXgybjiX3fw==",
   "success": true,
-  "projectFilePath": "D:\\projects\\csharp\\Server\\Server\\Server.csproj",
+  "projectFilePath": "D:\\github\\Test_Server\\Server\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\google.protobuf\\3.19.1\\google.protobuf.3.19.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\google.protobuf.tools\\3.19.1\\google.protobuf.tools.3.19.1.nupkg.sha512"

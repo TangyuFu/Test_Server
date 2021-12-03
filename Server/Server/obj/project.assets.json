@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\csharp\\Server\\Server\\Server.csproj",
+      "projectUniqueName": "D:\\github\\Test_Server\\Server\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "D:\\projects\\csharp\\Server\\Server\\Server.csproj",
+      "projectPath": "D:\\github\\Test_Server\\Server\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\csharp\\Server\\Server\\obj\\",
+      "outputPath": "D:\\github\\Test_Server\\Server\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

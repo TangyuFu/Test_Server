@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\csharp\\Client\\Client\\Client.csproj": {}
+    "D:\\github\\Test_Server\\Client\\Client\\Client.csproj": {}
   },
   "projects": {
-    "D:\\projects\\csharp\\Client\\Client\\Client.csproj": {
+    "D:\\github\\Test_Server\\Client\\Client\\Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\csharp\\Client\\Client\\Client.csproj",
+        "projectUniqueName": "D:\\github\\Test_Server\\Client\\Client\\Client.csproj",
         "projectName": "Client",
-        "projectPath": "D:\\projects\\csharp\\Client\\Client\\Client.csproj",
+        "projectPath": "D:\\github\\Test_Server\\Client\\Client\\Client.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\csharp\\Client\\Client\\obj\\",
+        "outputPath": "D:\\github\\Test_Server\\Client\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
